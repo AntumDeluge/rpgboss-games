@@ -1,0 +1,61 @@
+[
+  {
+    "name":"Jordan",
+    "subtitle":"Adventurer",
+    "description":"An ordinary boy thrust into extraordinary circumstances.",
+    "sprite":{
+      "name":"sys/vx_chara01_a.png",
+      "spriteIndex":4,
+      "dir":0,
+      "step":1
+    },
+    "face":{
+      "faceset":"sys/mackie/face_m01a_1.png",
+      "faceX":0,
+      "faceY":1
+    },
+    "initLevel":1,
+    "maxLevel":50,
+    "charClass":0,
+    "progressions":{
+      "exp":{
+        "base":300.0,
+        "perLevel":100.0
+      },
+      "mhp":{
+        "base":100.0,
+        "perLevel":10.0
+      },
+      "mmp":{
+        "base":20.0,
+        "perLevel":4.0
+      },
+      "atk":{
+        "base":10.0,
+        "perLevel":2.5
+      },
+      "spd":{
+        "base":10.0,
+        "perLevel":2.0
+      },
+      "mag":{
+        "base":10.0,
+        "perLevel":1.5
+      },
+      "arm":{
+        "base":10.0,
+        "perLevel":2.5
+      },
+      "mre":{
+        "base":10.0,
+        "perLevel":2.0
+      }
+    },
+    "startingEquipment":[
+      
+    ],
+    "equipFixed":[
+      
+    ]
+  }
+]

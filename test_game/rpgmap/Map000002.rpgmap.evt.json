@@ -1,0 +1,64 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"GoOutside!",
+      "x":3.5,
+      "y":14.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000001.rpgmap",
+                "x":16.5,
+                "y":7.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Save!",
+      "x":9.5,
+      "y":7.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"CallSaveMenu"
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}
