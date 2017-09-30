@@ -1,8 +1,9 @@
 {
   "intMap":{
-    "gold":125,
+    "enemyDefeated":1,
+    "gold":200,
     "gotChest":1,
-    "interior":1,
+    "interior":0,
     "menuEnabled":1,
     "eventsEnabled":1,
     "useTransition":-1
@@ -12,10 +13,10 @@
   },
   "intArrayMap":{
     "characterLevels":[
-      1
+      2
     ],
     "characterHps":[
-      100
+      70
     ],
     "characterStatusEffects-0":[
       
@@ -34,7 +35,7 @@
       0
     ],
     "characterMps":[
-      20
+      24
     ],
     "inventoryIdxs":[
       0,
@@ -50,7 +51,7 @@
       32
     ],
     "characterExps":[
-      120
+      180
     ]
   },
   "stringArrayMap":{
@@ -60,9 +61,9 @@
   },
   "mapLocMap":{
     "playerLoc":{
-      "map":"Map000002.rpgmap",
-      "x":8.624452,
-      "y":7.6246486
+      "map":"Map000003.rpgmap",
+      "x":22.371534,
+      "y":4.797788
     }
   },
   "eventStates":[

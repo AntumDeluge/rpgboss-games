@@ -1,14 +1,16 @@
 {
   "parent":"",
-  "title":"Forest1",
-  "xSize":50,
-  "ySize":50,
+  "title":"Forest E",
+  "xSize":40,
+  "ySize":30,
   "tilesets":[
-    "ground-cc0.png",
-    "building-cc0.png",
-    "bush_fence.png",
-    "tent_tan-160x160.png",
-    "mushroom_houses.png"
+    "sys/Refmap-TileA5.png",
+    "sys/Refmap-TileB.png",
+    "sys/Refmap-TileC.png",
+    "sys/Refmap-TileD.png",
+    "sys/Refmap-TileE.png",
+    "market.png",
+    "trees-cc0.png"
   ],
   "autotiles":[
     "sys/Refmap-A1-0-0-A.png",
@@ -141,19 +143,35 @@
     "sys/Refmap-A4-5-7.png"
   ],
   "interior":false,
+  "music":{
+    "sound":"sys/aaron_mcdonald/Journey to the East - Ghost Dance.mid",
+    "volume":1.0,
+    "pitch":1.0
+  },
   "battleBackground":"sys/Etolier/01sougen.jpg",
   "battleMusic":{
     "sound":"sys/sean_m_stephens/Battle1.mid",
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":34.671875,
-  "editorCenterY":15.328125,
-  "lastGeneratedEventId":6,
+  "editorCenterX":15.328125,
+  "editorCenterY":14.015625,
+  "lastGeneratedEventId":1,
   "randomEncounterSettings":{
-    "stepsAverage":20,
+    "stepsAverage":40,
     "encounters":[
-      
+      {
+        "encounterId":0,
+        "weight":10
+      },
+      {
+        "encounterId":2,
+        "weight":10
+      },
+      {
+        "encounterId":1,
+        "weight":10
+      }
     ]
   }
 }

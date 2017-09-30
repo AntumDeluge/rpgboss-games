@@ -125,6 +125,39 @@
       ]
     },
     {
+      "id":6,
+      "name":"Event00006",
+      "x":49.5,
+      "y":11.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000003.rpgmap",
+                "x":1.5,
+                "y":8.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":2,
       "name":"Fight!",
       "x":35.5,
@@ -132,7 +165,25 @@
       "states":[
         {
           "conditions":[
-            
+            {
+              "conditionTypeId":0,
+              "intValue1":{
+                "jsonClass":"IntParameter",
+                "constant":0,
+                "valueTypeId":2,
+                "localVariable":"",
+                "globalVariable":"enemyDefeated"
+              },
+              "intValue2":{
+                "jsonClass":"IntParameter",
+                "constant":0,
+                "valueTypeId":0,
+                "localVariable":"",
+                "globalVariable":""
+              },
+              "operatorId":0,
+              "negate":true
+            }
           ],
           "sprite":{
             "name":"sys/vx_chara08_a.png",
@@ -165,8 +216,33 @@
               }
             },
             {
-              "jsonClass":"Return"
+              "jsonClass":"SetEventState",
+              "entitySpec":{
+                "whichEntityId":1,
+                "mapName":"Map000001.rpgmap",
+                "eventId":1
+              },
+              "state":1
             }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara08_a.png",
+            "spriteIndex":6,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
           ]
         }
       ],
