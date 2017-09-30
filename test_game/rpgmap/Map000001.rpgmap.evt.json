@@ -252,6 +252,49 @@
       ]
     },
     {
+      "id":7,
+      "name":"Event00007",
+      "x":44.5,
+      "y":20.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara03_a.png",
+            "spriteIndex":5,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":2,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "*wink*"
+              ],
+              "customFace":{
+                "faceset":"faceset-female-01.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":3,
       "name":"Chest!",
       "x":14.5,
