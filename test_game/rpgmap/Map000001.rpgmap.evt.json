@@ -44,7 +44,7 @@
             
           ],
           "sprite":{
-            "name":"sys/vx_chara03_d.png",
+            "name":"sys/$vx_chara09_a.png",
             "spriteIndex":0,
             "dir":0,
             "step":1
@@ -53,6 +53,33 @@
           "affixDirection":false,
           "trigger":1,
           "animationType":2,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"SetEventState",
+              "entitySpec":{
+                "whichEntityId":1,
+                "mapName":"Map000001.rpgmap",
+                "eventId":1
+              },
+              "state":1
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/$vx_chara09_a.png",
+            "spriteIndex":0,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
           "runOnceThenIncrementState":false,
           "cmds":[
             {
@@ -115,6 +142,15 @@
               },
               "useCharacterFace":false,
               "characterId":0
+            },
+            {
+              "jsonClass":"SetEventState",
+              "entitySpec":{
+                "whichEntityId":1,
+                "mapName":"Map000001.rpgmap",
+                "eventId":1
+              },
+              "state":0
             }
           ]
         }
