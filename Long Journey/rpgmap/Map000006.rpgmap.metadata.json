@@ -1,8 +1,8 @@
 {
-  "parent":"Map000002.rpgmap",
-  "title":"Miner Town",
-  "xSize":50,
-  "ySize":40,
+  "parent":"Map000003.rpgmap",
+  "title":"Cousins House",
+  "xSize":30,
+  "ySize":20,
   "tilesets":[
     "sys/Refmap-TileA5.png",
     "sys/Refmap-TileB.png",
@@ -142,7 +142,7 @@
   ],
   "interior":false,
   "music":{
-    "sound":"sys/sean_m_stephens/Town1.mid",
+    "sound":"sys/aaron_mcdonald/Titus Andronicus - An Affinity for Blood (piano version).mid",
     "volume":1.0,
     "pitch":1.0
   },
@@ -152,9 +152,9 @@
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":25.765625,
-  "editorCenterY":24.453125,
-  "lastGeneratedEventId":5,
+  "editorCenterX":15.0,
+  "editorCenterY":10.0,
+  "lastGeneratedEventId":4,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

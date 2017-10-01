@@ -1,6 +1,6 @@
 {
   "intMap":{
-    "gold":2600,
+    "gold":1000,
     "interior":0,
     "menuEnabled":1,
     "eventsEnabled":1,
@@ -24,10 +24,6 @@
       50,
       50
     ],
-    "inventoryQtys":[
-      1,
-      1
-    ],
     "characterRow":[
       0,
       0,
@@ -44,10 +40,6 @@
       20,
       20,
       20
-    ],
-    "inventoryIdxs":[
-      0,
-      6
     ],
     "characterExps":[
       0,
@@ -68,9 +60,9 @@
   },
   "mapLocMap":{
     "playerLoc":{
-      "map":"Map000003.rpgmap",
-      "x":13.384978,
-      "y":17.529192
+      "map":"Map000004.rpgmap",
+      "x":8.732479,
+      "y":2.618847
     }
   },
   "eventStates":[

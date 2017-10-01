@@ -1,21 +1,21 @@
 [
   {
-    "name":"Damaged Sword",
-    "desc":"A beginner sword.",
+    "name":"magic chestplate",
+    "desc":"",
     "effects":[
       {
-        "keyId":302,
-        "v1":1,
+        "keyId":305,
+        "v1":3,
         "v2":0
       }
     ],
     "sellable":true,
-    "price":100,
+    "price":0,
     "itemTypeId":2,
     "accessId":0,
     "scopeId":4,
-    "equipType":0,
-    "useOnAttack":true,
+    "equipType":2,
+    "useOnAttack":false,
     "equippedAttackSkillId":0
   },
   {
@@ -34,47 +34,69 @@
     "equippedAttackSkillId":0
   },
   {
-    "name":"Damaged Pant",
-    "desc":"A beginner pant",
+    "name":"magic pant",
+    "desc":"",
     "effects":[
-      
+      {
+        "keyId":305,
+        "v1":1,
+        "v2":0
+      },
+      {
+        "keyId":304,
+        "v1":2,
+        "v2":0
+      }
     ],
     "sellable":true,
-    "price":100,
+    "price":0,
     "itemTypeId":2,
     "accessId":0,
     "scopeId":4,
-    "equipType":7,
+    "equipType":2,
     "useOnAttack":false,
     "equippedAttackSkillId":0
   },
   {
-    "name":"Damaged Helmet",
-    "desc":"A beginner helmet",
+    "name":"magic Helmet",
+    "desc":"",
     "effects":[
-      
+      {
+        "keyId":305,
+        "v1":1,
+        "v2":0
+      },
+      {
+        "keyId":304,
+        "v1":1,
+        "v2":0
+      }
     ],
     "sellable":true,
-    "price":100,
+    "price":0,
     "itemTypeId":2,
     "accessId":0,
     "scopeId":4,
-    "equipType":3,
+    "equipType":2,
     "useOnAttack":false,
     "equippedAttackSkillId":0
   },
   {
-    "name":"Damaged Legging",
-    "desc":"A beginner legging",
+    "name":"magic legging",
+    "desc":"",
     "effects":[
-      
+      {
+        "keyId":304,
+        "v1":1,
+        "v2":0
+      }
     ],
     "sellable":true,
-    "price":100,
+    "price":0,
     "itemTypeId":2,
     "accessId":0,
     "scopeId":4,
-    "equipType":8,
+    "equipType":2,
     "useOnAttack":false,
     "equippedAttackSkillId":0
   },
@@ -480,9 +502,14 @@
     "equippedAttackSkillId":0
   },
   {
-    "name":"Rein Fire Armor",
-    "desc":"A chestplate that resist 50 fire damage",
+    "name":"Magic glove",
+    "desc":"",
     "effects":[
+      {
+        "keyId":305,
+        "v1":2,
+        "v2":0
+      },
       {
         "keyId":400,
         "v1":4,
@@ -490,7 +517,7 @@
       }
     ],
     "sellable":true,
-    "price":1000,
+    "price":0,
     "itemTypeId":2,
     "accessId":3,
     "scopeId":0,
@@ -590,6 +617,55 @@
     "accessId":0,
     "scopeId":4,
     "equipType":1,
+    "useOnAttack":false,
+    "equippedAttackSkillId":0
+  },
+  {
+    "name":"Damaged Sword",
+    "desc":"",
+    "effects":[
+      {
+        "keyId":302,
+        "v1":1,
+        "v2":0
+      }
+    ],
+    "sellable":true,
+    "price":100,
+    "itemTypeId":2,
+    "accessId":0,
+    "scopeId":4,
+    "equipType":0,
+    "useOnAttack":false,
+    "equippedAttackSkillId":0
+  },
+  {
+    "name":"",
+    "desc":"",
+    "effects":[
+      
+    ],
+    "sellable":true,
+    "price":100,
+    "itemTypeId":0,
+    "accessId":0,
+    "scopeId":4,
+    "equipType":0,
+    "useOnAttack":false,
+    "equippedAttackSkillId":0
+  },
+  {
+    "name":"",
+    "desc":"",
+    "effects":[
+      
+    ],
+    "sellable":true,
+    "price":100,
+    "itemTypeId":0,
+    "accessId":0,
+    "scopeId":4,
+    "equipType":0,
     "useOnAttack":false,
     "equippedAttackSkillId":0
   },
