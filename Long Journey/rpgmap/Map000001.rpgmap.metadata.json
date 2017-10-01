@@ -1,6 +1,6 @@
 {
   "parent":"",
-  "title":"Map000001",
+  "title":"House 1 Upstairs",
   "xSize":30,
   "ySize":20,
   "tilesets":[
@@ -154,7 +154,7 @@
   },
   "editorCenterX":15.0,
   "editorCenterY":10.0,
-  "lastGeneratedEventId":0,
+  "lastGeneratedEventId":3,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

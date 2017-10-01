@@ -3,7 +3,11 @@
     "name":"Damaged Sword",
     "desc":"A beginner sword.",
     "effects":[
-      
+      {
+        "keyId":302,
+        "v1":1,
+        "v2":0
+      }
     ],
     "sellable":true,
     "price":100,
@@ -93,7 +97,11 @@
     "name":"Damaged Shield",
     "desc":"A beginner shield",
     "effects":[
-      
+      {
+        "keyId":305,
+        "v1":1,
+        "v2":0
+      }
     ],
     "sellable":true,
     "price":100,
@@ -548,14 +556,18 @@
     "equippedAttackSkillId":0
   },
   {
-    "name":"",
+    "name":"Hero Sword",
     "desc":"",
     "effects":[
-      
+      {
+        "keyId":302,
+        "v1":5,
+        "v2":0
+      }
     ],
     "sellable":true,
-    "price":100,
-    "itemTypeId":0,
+    "price":200,
+    "itemTypeId":2,
     "accessId":0,
     "scopeId":4,
     "equipType":0,
@@ -563,17 +575,21 @@
     "equippedAttackSkillId":0
   },
   {
-    "name":"",
+    "name":"Hero Shield",
     "desc":"",
     "effects":[
-      
+      {
+        "keyId":305,
+        "v1":5,
+        "v2":0
+      }
     ],
     "sellable":true,
-    "price":100,
-    "itemTypeId":0,
+    "price":150,
+    "itemTypeId":2,
     "accessId":0,
     "scopeId":4,
-    "equipType":0,
+    "equipType":1,
     "useOnAttack":false,
     "equippedAttackSkillId":0
   },
