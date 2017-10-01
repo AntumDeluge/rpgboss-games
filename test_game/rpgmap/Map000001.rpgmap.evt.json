@@ -315,7 +315,7 @@
                 "*wink*"
               ],
               "customFace":{
-                "faceset":"faceset-female-01.png",
+                "faceset":"female-01.png",
                 "faceX":1,
                 "faceY":0
               },
@@ -525,6 +525,37 @@
           "affixDirection":false,
           "trigger":0,
           "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":8,
+      "name":"Horse",
+      "x":9.5,
+      "y":17.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"horse.png",
+            "spriteIndex":0,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":0,
+          "animationType":2,
           "runOnceThenIncrementState":false,
           "cmds":[
             
