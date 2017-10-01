@@ -34,6 +34,68 @@
       ]
     },
     {
+      "id":10,
+      "name":"Event00010",
+      "x":16.5,
+      "y":15.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara07_c.png",
+            "spriteIndex":0,
+            "dir":2,
+            "step":0
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":0,
+          "animationType":2,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":14,
+      "name":"Event00014",
+      "x":7.5,
+      "y":17.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara07_a.png",
+            "spriteIndex":4,
+            "dir":2,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":0,
+          "animationType":3,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":1,
       "name":"Event00001",
       "x":39.5,
@@ -58,6 +120,113 @@
               },
               "transitionId":1
             }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":6,
+      "name":"Event00006",
+      "x":3.5,
+      "y":4.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/oga_vehicles.png",
+            "spriteIndex":2,
+            "dir":0,
+            "step":2
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Neeeiiiiggghhhhh"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":9,
+      "name":"Event00009",
+      "x":14.5,
+      "y":10.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara07_c.png",
+            "spriteIndex":1,
+            "dir":1,
+            "step":0
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Moooooooooo"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":13,
+      "name":"Event00013",
+      "x":8.5,
+      "y":16.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara07_a.png",
+            "spriteIndex":4,
+            "dir":2,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":0,
+          "animationType":3,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
           ]
         }
       ],
@@ -100,6 +269,75 @@
       ]
     },
     {
+      "id":12,
+      "name":"Event00012",
+      "x":7.5,
+      "y":16.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara07_a.png",
+            "spriteIndex":4,
+            "dir":1,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":0,
+          "animationType":3,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":7,
+      "name":"Event00007",
+      "x":8.5,
+      "y":4.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/oga_vehicles.png",
+            "spriteIndex":2,
+            "dir":0,
+            "step":2
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "neigh, neigh"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":3,
       "name":"Event00003",
       "x":23.5,
@@ -119,6 +357,75 @@
               "jsonClass":"ShowText",
               "lines":[
                 "crop farm"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":11,
+      "name":"Event00011",
+      "x":24.5,
+      "y":6.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara07_c.png",
+            "spriteIndex":1,
+            "dir":0,
+            "step":2
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":0,
+          "animationType":2,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":8,
+      "name":"Event00008",
+      "x":11.5,
+      "y":4.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/oga_vehicles.png",
+            "spriteIndex":2,
+            "dir":0,
+            "step":2
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                ".............."
               ],
               "useCharacterFace":false,
               "characterId":0
@@ -161,6 +468,37 @@
               "useCharacterFace":false,
               "characterId":0
             }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":15,
+      "name":"Event00015",
+      "x":8.5,
+      "y":17.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara07_a.png",
+            "spriteIndex":4,
+            "dir":1,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":0,
+          "animationType":3,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
           ]
         }
       ],

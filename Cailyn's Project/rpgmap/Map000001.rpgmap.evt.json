@@ -60,11 +60,6 @@
               "lines":[
                 "something is up with the farmer across the bridge"
               ],
-              "customFace":{
-                "faceset":"sys/mackie/face_m01a_1.png",
-                "faceX":2,
-                "faceY":1
-              },
               "useCharacterFace":false,
               "characterId":0
             }
