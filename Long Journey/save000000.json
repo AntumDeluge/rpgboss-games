@@ -24,6 +24,14 @@
       50,
       50
     ],
+    "inventoryQtys":[
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
     "characterRow":[
       0,
       0,
@@ -40,6 +48,19 @@
       20,
       20,
       20
+    ],
+    "inventoryIdxs":[
+      34,
+      1,
+      5,
+      2,
+      3,
+      4
+    ],
+    "characterEquip-0":[
+      -1,
+      33,
+      3
     ],
     "characterExps":[
       0,
@@ -60,9 +81,9 @@
   },
   "mapLocMap":{
     "playerLoc":{
-      "map":"Map000004.rpgmap",
-      "x":8.732479,
-      "y":2.618847
+      "map":"Map000003.rpgmap",
+      "x":23.484331,
+      "y":20.957695
     }
   },
   "eventStates":[
