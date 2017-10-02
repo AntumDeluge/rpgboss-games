@@ -1,5 +1,203 @@
 {
   "events":[
-    
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":23.5,
+      "y":27.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara03_b.png",
+            "spriteIndex":5,
+            "dir":0,
+            "step":0
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Hi! What is your name?"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":2,
+                "faceY":1
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Well I don't quiet think that you will like it?!"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Of course I would!!!! Do you want me to tell you mine?"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":2,
+                "faceY":1
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Sure!!! I mean \" I guess\""
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Okay well my name is, Agielia shakahaki!!!!! I love to talk to people and animals! Speaking of what's your favorite animal!! Mine is a horse!"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":2,
+                "faceY":1
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "My name is Evangelin Arieloa"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Woah!!! That's prettier than mine! I absolutely love it!"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":2,
+                "faceY":1
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Really!!!"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Yes! "
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":2,
+                "faceY":1
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Well do you want to be friends!?"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Yeah! of course you didn't have to ask!"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":2,
+                "faceY":1
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Yeah! I will see you soon!!! Bye!"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Okay! Bye!"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":2,
+                "faceY":1
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
   ]
 }
