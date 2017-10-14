@@ -1,6 +1,6 @@
 {
   "parent":"",
-  "title":"Map000003",
+  "title":"Map000004",
   "xSize":40,
   "ySize":30,
   "tilesets":[
@@ -142,7 +142,7 @@
   ],
   "interior":false,
   "music":{
-    "sound":"sys/aaron_mcdonald/Titus Andronicus - Villianous Villians Doing Doubious Deeds.mid",
+    "sound":"sys/sean_m_stephens/Battle1.mid",
     "volume":1.0,
     "pitch":1.0
   },
@@ -153,8 +153,8 @@
     "pitch":1.0
   },
   "editorCenterX":15.328125,
-  "editorCenterY":14.578125,
-  "lastGeneratedEventId":6,
+  "editorCenterY":15.046875,
+  "lastGeneratedEventId":2,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

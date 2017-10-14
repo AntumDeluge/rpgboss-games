@@ -1,0 +1,84 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":2.5,
+      "y":7.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara03_f.png",
+            "spriteIndex":5,
+            "dir":0,
+            "step":0
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Sleep",
+              "duration":0.0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Boo"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":23.5,
+      "y":14.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara01_b.png",
+            "spriteIndex":6,
+            "dir":2,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "hav you sean my sis"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

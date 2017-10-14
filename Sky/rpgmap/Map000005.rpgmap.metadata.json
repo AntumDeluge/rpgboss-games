@@ -1,6 +1,6 @@
 {
   "parent":"",
-  "title":"Map000003",
+  "title":"Map000005",
   "xSize":40,
   "ySize":30,
   "tilesets":[
@@ -141,20 +141,15 @@
     "sys/Refmap-A4-5-7.png"
   ],
   "interior":false,
-  "music":{
-    "sound":"sys/aaron_mcdonald/Titus Andronicus - Villianous Villians Doing Doubious Deeds.mid",
-    "volume":1.0,
-    "pitch":1.0
-  },
   "battleBackground":"sys/Etolier/01sougen.jpg",
   "battleMusic":{
     "sound":"sys/sean_m_stephens/Battle1.mid",
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":15.328125,
-  "editorCenterY":14.578125,
-  "lastGeneratedEventId":6,
+  "editorCenterX":24.671875,
+  "editorCenterY":14.015625,
+  "lastGeneratedEventId":0,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

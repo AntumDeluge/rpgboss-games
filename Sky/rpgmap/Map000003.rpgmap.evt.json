@@ -1,6 +1,49 @@
 {
   "events":[
     {
+      "id":5,
+      "name":"Event00005",
+      "x":1.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara03_a.png",
+            "spriteIndex":5,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Hi"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":1,
       "name":"Event00001",
       "x":28.5,
@@ -69,55 +112,32 @@
       ]
     },
     {
-      "id":2,
-      "name":"Go Back!!!",
+      "id":6,
+      "name":"Event00006",
       "x":3.5,
-      "y":14.5,
+      "y":2.5,
       "states":[
         {
           "conditions":[
             
           ],
           "sprite":{
-            "name":"sys/vx_chara02_c.png",
-            "spriteIndex":4,
+            "name":"sys/vx_chara03_d.png",
+            "spriteIndex":6,
             "dir":0,
-            "step":1
+            "step":0
           },
           "height":1,
           "affixDirection":false,
           "trigger":1,
-          "animationType":3,
+          "animationType":0,
           "runOnceThenIncrementState":false,
           "cmds":[
             {
-              "jsonClass":"Teleport",
-              "loc":{
-                "map":"Map000001.rpgmap",
-                "x":38.5,
-                "y":2.5
-              },
-              "transitionId":1
-            },
-            {
               "jsonClass":"ShowText",
               "lines":[
-                "I HATE YOU!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-                "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-                "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-                "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-                "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-                "!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-                "!!!!!!!!!!!!!",
-                "!!!!!!!!!!",
-                "!!!",
-                "!"
+                "goo goo gaa gaa"
               ],
-              "customFace":{
-                "faceset":"sys/mackie/face_m01a_1.png",
-                "faceX":2,
-                "faceY":0
-              },
               "useCharacterFace":false,
               "characterId":0
             }
@@ -161,6 +181,44 @@
                 "faceX":1,
                 "faceY":1
               },
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":4,
+      "name":"Event00004",
+      "x":35.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/$vx_chara09_d.png",
+            "spriteIndex":0,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":3,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "You agan go away"
+              ],
               "useCharacterFace":false,
               "characterId":0
             }

@@ -413,6 +413,49 @@
       ]
     },
     {
+      "id":27,
+      "name":"Event00027",
+      "x":13.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara03_b.png",
+            "spriteIndex":5,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "are you ever nice"
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":0,
+                "faceY":0
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":7,
       "name":"Event00007",
       "x":6.5,
